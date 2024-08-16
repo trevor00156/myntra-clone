@@ -192,10 +192,10 @@ nav a{
 
       }
       .items-container{
-        margin-top: 70px;
-        margin-bottom: 150px;
-        margin-left:10% ;
-        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left:0 ;
+        /* width: 80%; */
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -276,3 +276,31 @@ nav a{
         cursor: pointer;
 
       }
+
+
+      .bagitemcount{
+        background-color: #f16565;
+        white-space: nowrap;
+        text-align: center;
+        line-height: 18px;
+        padding: 0 6px;
+        height: 18px;
+        position: relative;
+        border-radius: 50%;
+        font-size: 12px;
+        color: #fff;
+        left: -35px;
+        top: -10px;
+        font-weight: 700;
+        cursor: pointer;
+
+
+
+      }
+
+      .baglink {
+        text-decoration: none;
+    }
+    .baglink {
+        color:black;
+    }
