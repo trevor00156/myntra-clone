@@ -37,6 +37,10 @@ function displayitemsonhomepage(){
 
   let itemcontainerelement=document.querySelector('.items-container');
 
+  if(!itemcontainerelement){
+
+    return;
+  }
   let innerhtml='';
   items.forEach(item=>{
   

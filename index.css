@@ -136,6 +136,7 @@ nav a{
     padding-top: 20px;
     padding-bottom: 15px;
     margin-top: 40px;
+    cursor: pointer;
    
    
   }
@@ -188,24 +189,27 @@ nav a{
         height: 300px;
         width: 210px;
         margin: 80px;
+        cursor: pointer;
+        
         
 
       }
       .items-container{
-        margin-top: 10px;
+        margin-top: -20px;
         margin-bottom: 50px;
         margin-left:0 ;
         /* width: 80%; */
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        
+       
 
       }
      
       .item-image{
        width: 100%;
        height: 100%;
+       /* cursor: pointer; */
       }
       .rating{
         font-size: 12px;
@@ -303,4 +307,18 @@ nav a{
     }
     .baglink {
         color:black;
+    }
+
+
+    .text{
+      font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;;
+      font-weight: 400;
+      margin-top: 50px;
+      margin-left: 20px;
+      font-size: 30px;
+      color: #535766;
+      text-transform: uppercase;
+      text-align: center;
+      
+
     }
